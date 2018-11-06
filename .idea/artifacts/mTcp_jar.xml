@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="mTcp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mTcp_jar</output-path>
+    <root id="root">
+      <element id="archive" name="mTcp.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="mTcp" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="module" name="commons-codec-1.11.jar" module-name="mTcp" />
+      </element>
+    </root>
+  </artifact>
+</component>
