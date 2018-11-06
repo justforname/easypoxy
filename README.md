@@ -1,2 +1,2 @@
-## easypoxy
+##
 ## tcp poxy
